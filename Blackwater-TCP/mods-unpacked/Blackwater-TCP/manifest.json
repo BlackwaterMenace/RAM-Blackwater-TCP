@@ -1,0 +1,36 @@
+{
+	"dependencies": [
+		"RAModding-VRAM"
+	],
+	"description": "Triumvirate Character Pack (TCP)\nBy Blackwater\n\nAdds the following skins to the following bots:\n* Aphid: Sonaphid (Based on Sona from the Undertale Kissy Cutie fangame)\n* Router: UM1 (Based on Umi the Umriss Girl)\n* Tachi: AZPT (Based on Lizzy the Azzypants Fujoshi)\n\nAll skins are unlocked by default.",
+	"extra": {
+		"godot": {
+			"authors": [],
+			"compatible_game_version": [
+				"0.0.0"
+			],
+			"compatible_mod_loader_version": [
+				"7.0.0"
+			],
+			"config_schema": {
+
+			},
+			"description_rich": "",
+			"image": null,
+			"incompatibilities": [],
+			"load_before": [],
+			"optional_dependencies": [],
+			"tags": [
+				"Skins",
+				"Cosmetics",
+				"Tachi",
+				"Router",
+				"Aphid"
+			]
+		}
+	},
+	"name": "TCP",
+	"namespace": "Blackwater",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/BlackwaterMenace/RAM-Blackwater-TCP"
+}
