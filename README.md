@@ -8,7 +8,7 @@ This is a skin pack containing the following 3 skins:
 All of these are available to equip as soon as the mod is installed, without any unlock requirements.
 
 ## Dependencies
-This mod depends on (RAModding-VRAM)[https://github.com/BlackwaterMenace/RAModding-VRAM].
+This mod depends on [RAModding-VRAM](https://github.com/BlackwaterMenace/RAModding-VRAM).
 
 ## Special Thanks
 Thanks to Andrew, Toby, and all of the other RAM developers at Xylem Studios for making RAM. 10/10, my only complaint is that it should have costed more money.
