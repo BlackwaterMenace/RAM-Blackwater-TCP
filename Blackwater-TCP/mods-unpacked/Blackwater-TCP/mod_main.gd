@@ -13,7 +13,9 @@ func _ready() -> void:
 	add_skins()
 
 func add_skins() -> void:
-	VRAM_SkinsManager.register_skin(
+	var VRAM_SM = Engine.get_singleton("VRAM_SkinsManager")
+	
+	VRAM_SM.register_skin(
 		Enemy.EnemyType.FLAME,
 		"Blackwater_TCP_Sona",
 		"Sonaphid",
@@ -26,7 +28,7 @@ func add_skins() -> void:
 	)
 	ModLoaderLog.info("Added Sonaphid", LOG_NAME)
 	
-	VRAM_SkinsManager.register_skin(
+	VRAM_SM.register_skin(
 		Enemy.EnemyType.WHEEL,
 		"Blackwater_TCP_UM1",
 		"UM1",
@@ -38,7 +40,7 @@ func add_skins() -> void:
 	)
 	ModLoaderLog.info("Added UM1", LOG_NAME)
 	
-	VRAM_SkinsManager.register_skin(
+	VRAM_SM.register_skin(
 		Enemy.EnemyType.SABER,
 		"Blackwater_TCP_AZPT",
 		"AZPT",
